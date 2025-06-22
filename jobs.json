@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "title": "Frontend Developer",
+        "department": "Engineering",
+        "location": "Remote",
+        "description": "We're looking for a skilled frontend developer with experience in React.js and modern CSS. You'll be responsible for building user interfaces and implementing design systems. Requirements: 3+ years of experience with JavaScript, HTML, CSS, and at least 1 year with React."
+    },
+    {
+        "id": 2,
+        "title": "UX Designer",
+        "department": "Design",
+        "location": "Bangalore",
+        "description": "Design beautiful interfaces and delightful user experiences. You'll work closely with product managers and engineers to create intuitive and accessible designs. Requirements: Portfolio demonstrating UX/UI skills, experience with Figma or Sketch, 2+ years of design experience."
+    },
+    {
+        "id": 3,
+        "title": "Backend Engineer",
+        "department": "Engineering",
+        "location": "San Francisco",
+        "description": "Build and maintain our server infrastructure and APIs. You'll work with Node.js, Python, and various databases to create scalable backend systems. Requirements: Strong knowledge of server-side technologies, experience with cloud platforms, 3+ years of backend development."
+    },
+    {
+        "id": 4,
+        "title": "Marketing Manager",
+        "department": "Marketing",
+        "location": "New York",
+        "description": "Lead our marketing efforts and develop strategies to grow our brand. You'll manage campaigns, analyze metrics, and work with creative teams. Requirements: 5+ years of marketing experience, strong analytical skills, experience with digital marketing tools."
+    },
+    {
+        "id": 5,
+        "title": "Sales Representative",
+        "department": "Sales",
+        "location": "Chicago",
+        "description": "Build relationships with clients and drive sales growth. You'll identify new business opportunities and manage existing accounts. Requirements: Excellent communication skills, 2+ years of sales experience, ability to travel occasionally."
+    },
+    {
+        "id": 6,
+        "title": "DevOps Engineer",
+        "department": "Engineering",
+        "location": "Remote",
+        "description": "Implement and maintain our CI/CD pipelines and cloud infrastructure. You'll work with Docker, Kubernetes, and various cloud providers to ensure reliable deployments. Requirements: Experience with infrastructure as code, monitoring tools, and automation."
+    },
+    {
+        "id": 7,
+        "title": "Product Manager",
+        "department": "Operations",
+        "location": "Austin",
+        "description": "Lead product development from conception to launch. You'll gather requirements, prioritize features, and work with cross-functional teams. Requirements: 3+ years of product management experience, technical background preferred, strong organizational skills."
+    }
+]

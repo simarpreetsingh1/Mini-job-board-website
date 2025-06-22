@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Positions at Acme Corp</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <div class="logo">Acme Corp</div>
+            <h1>Open Positions at Acme Corp</h1>
+            <p class="tagline">Join our team and help build the future</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="filters">
+            <div class="search-filter">
+                <input type="text" id="search" placeholder="Search by job title..." aria-label="Search by job title">
+            </div>
+            <div class="department-filter">
+                <select id="department" aria-label="Filter by department">
+                    <option value="">All Departments</option>
+                    <option value="Engineering">Engineering</option>
+                    <option value="Design">Design</option>
+                    <option value="Marketing">Marketing</option>
+                    <option value="Sales">Sales</option>
+                    <option value="Operations">Operations</option>
+                </select>
+            </div>
+        </section>
+
+        <section class="job-listings">
+            <div class="loader" id="loader">Loading jobs...</div>
+            <div class="jobs-container" id="jobs-container"></div>
+        </section>
+    </main>
+
+    <div class="modal" id="job-modal">
+        <div class="modal-content">
+            <button class="close-modal" id="close-modal" aria-label="Close modal">&times;</button>
+            <h2 id="modal-title"></h2>
+            <p class="modal-meta"><span id="modal-department"></span> • <span id="modal-location"></span></p>
+            <div class="modal-description" id="modal-description"></div>
+            <a href="#" class="apply-button" id="apply-link" target="_blank">Apply Now</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
